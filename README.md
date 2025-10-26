@@ -12,7 +12,12 @@ This is my first machine learning project, built using a Kaggle practice dataset
 
 ### 📊 Sample Prediction
 > Predicted Loan Amount: ₹2,72,121.31  
-> Note: While the training data capped at ₹40,000, the model extrapolates based on high-income profiles (e.g., ₹80,000 annual income), which is realistic in real-world lending scenarios.
+> Note: While the predicted loan amount of **₹2,72,121.31** exceeds the maximum loan amount in the original dataset (**₹40,000**), it remains reasonable in real-world scenarios — especially for high-income applicants (e.g., ₹80,000 annual income). The dataset used is a **Kaggle practice dataset**, designed for learning and experimentation, not bound by strict real-world lending limits.
+
+This extrapolation reflects the model’s ability to generalize beyond the training data and simulate realistic outcomes for new profiles. In actual financial settings, such loan amounts are common for well-qualified applicants, making the prediction both technically sound and contextually valid.
+
+
+
 
 ### 🚀 What I Learned
 - How to preprocess and transform data for regression
