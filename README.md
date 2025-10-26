@@ -2,6 +2,16 @@
 
 This is my first machine learning project, built using a Kaggle practice dataset to predict loan amounts based on applicant profiles. The goal was to create a reliable regression pipeline that handles skewed data, multicollinearity, and generalizes well to new inputs.
 
+## 🗂️ Project Structure
+
+📁 data/                  # Original Kaggle dataset  
+📁 docs/                  # Problem statement and documentation  
+📁 notebooks/             # Jupyter notebook with full ML workflow  
+📁 visuals/               # Distribution plots and model visuals  
+📄 requirements.txt       # Python libraries used  
+📄 README.md              # Project overview and instructions  
+📄 LICENSE                # License information  
+
 ### 🔧 Key Features
 - Log transformation of skewed target variable (`loan_amount`)
 - Feature engineering: income ratios, cleaned employment length
