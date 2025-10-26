@@ -2,16 +2,6 @@
 
 This is my first machine learning project, built using a Kaggle practice dataset to predict loan amounts based on applicant profiles. The goal was to create a reliable regression pipeline that handles skewed data, multicollinearity, and generalizes well to new inputs.
 
-## 🗂️ Project Structure
-
-📁 data/                  # Original Kaggle dataset  
-📁 docs/                  # Problem statement and documentation  
-📁 notebooks/             # Jupyter notebook with full ML workflow  
-📁 visuals/               # Distribution plots and model visuals  
-📄 requirements.txt       # Python libraries used  
-📄 README.md              # Project overview and instructions  
-📄 LICENSE                # License information  
-
 ### 🔧 Key Features
 - Log transformation of skewed target variable (`loan_amount`)
 - Feature engineering: income ratios, cleaned employment length
@@ -25,9 +15,6 @@ This is my first machine learning project, built using a Kaggle practice dataset
  Note: While the predicted loan amount of **₹2,72,121.31** exceeds the maximum loan amount in the original dataset (**₹40,000**), it remains reasonable in real-world scenarios — especially for high-income applicants (e.g., ₹80,000 annual income). The dataset used is a **Kaggle practice dataset**, designed for learning and experimentation, not bound by strict real-world lending limits.
 
  This extrapolation reflects the model’s ability to generalize beyond the training data and simulate realistic outcomes for new profiles. In actual financial settings, such loan amounts are common for well-qualified applicants, making the prediction both technically sound and contextually valid.
-
-
-
 
 ### 🚀 What I Learned
 - How to preprocess and transform data for regression
